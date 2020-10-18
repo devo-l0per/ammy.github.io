@@ -495,7 +495,7 @@ img {
   flex-direction: row;
 }
 #about .col-left {
-  width: 712px;
+  width: 60%;
   height: auto;
 }
 
@@ -562,9 +562,9 @@ img {
   font-weight: 300;
   line-height: 34px;
   letter-spacing: 0em;
-  max-width: 982px;
+  max-width: 85%;
   color: #3e5257;
-  margin-left: 235px;
+  margin-left: 7.5%;
 }
 
 #about .about-description .description h3 {
@@ -700,7 +700,7 @@ img {
 
 /* Media Query For Desktop */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   /* header */
   #header .hamburger {
     display: none;
@@ -948,6 +948,10 @@ img {
   /* End of Portfolio Section  */
 
   /* About */
+
+  #about .container {
+    min-height: auto;
+  }
   #about .about {
     flex-direction: column;
     margin-top: 120px;
@@ -1197,7 +1201,7 @@ img {
 
 /* Media Query For I-Pad */
 
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
+@media only screen and (max-width: 800px) and (min-width: 700px) {
   #hero .hero .hero-info-subheading {
     font-size: 18px;
 
@@ -1225,6 +1229,29 @@ img {
   .dribbble-button a {
     font-size: 21px;
     margin-left: 5%;
+  }
+
+  /* about section */
+
+  #about .container {
+    min-height: auto;
+  }
+
+  #about .col-right {
+    /* margin: 20px; */
+    width: 100%;
+
+    padding-bottom: 0px;
+  }
+
+  #about .col-right .about-img {
+    margin-left: 23%;
+    content: url("./images/about_tab.jpg");
+    height: auto;
+  }
+
+  #about .col-left {
+    margin-top: 30px;
   }
 }
 
