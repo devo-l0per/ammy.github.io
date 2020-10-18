@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: #f8f4ed;
-  background-image: url(./images/background.png);
+  background-image: url(./images/background.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -241,9 +241,9 @@ img {
 }
 
 #hero .hero .hero-info-subheading {
-  width: 90%;
+  width: 75%;
   font-family: Mulil;
-  font-size: 28px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 300;
   line-height: 43px;
@@ -257,8 +257,7 @@ img {
   display: flex;
   justify-content: center;
 
-  /* margin: 58px auto 0;
- display: inline-block; */
+ 
 }
 
 #hero .hero .hero-btns {
@@ -273,8 +272,7 @@ img {
   background-color: #278056;
   padding: 13px 23px 14px 24px;
   margin-right: 22px;
-  /* height: 48px;
-  width: 136px; */
+  
   font-family: Mulil;
   font-size: 18px;
   font-style: normal;
@@ -295,8 +293,7 @@ img {
   border: #278056 solid 2px;
   color: #278056;
   margin-left: 22px;
-  /* height: 46px;
-  width: 134px; */
+  
   font-family: Mulil;
   font-size: 18px;
   font-style: normal;
@@ -393,13 +390,13 @@ img {
   font-family: "Cormorant Garamond", serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 25.84px;
+  font-size: 30px;
   /* line-height: 37px; */
   color: #1d292d;
 }
 
 .portfolio .home-cards .portfolio-heading span {
-  font-size: 19.38px;
+  font-size: 25px;
 }
 
 .portfolio .home-cards .portfolio-detail {
