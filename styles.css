@@ -143,11 +143,11 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   color: #fdfbf9;
-  font-size: 9rem;
+  font-size: 65px;
   letter-spacing: 0.15rem;
   z-index: -1;
   transition: 0.3s ease letter-spacing;
-  opacity: 50%;
+  opacity: 12%;
 }
 
 #header .nav-list ul li:hover a::after {
@@ -210,7 +210,7 @@ img {
 }
 
 #header .about-nav-bar {
-  padding-right:6.25%;
+  padding-right: 6.25%;
 }
 
 /* End Header section */
@@ -261,8 +261,6 @@ img {
 #hero .btns {
   display: flex;
   justify-content: center;
-
- 
 }
 
 #hero .hero .hero-btns {
@@ -277,7 +275,7 @@ img {
   background-color: #278056;
   padding: 13px 23px 14px 24px;
   margin-right: 22px;
-  
+
   font-family: Mulil;
   font-size: 20px;
   font-style: normal;
@@ -298,7 +296,7 @@ img {
   border: #278056 solid 2px;
   color: #278056;
   margin-left: 22px;
-  
+
   font-family: Mulil;
   font-size: 20px;
   font-style: normal;
@@ -519,8 +517,8 @@ img {
 #about .col-left .resumedownload {
   display: inline-block;
   padding: 13px 23px;
-  color: #278056;
-  background-color: #f8f4ed;
+  color: #ffffff;
+  background-color: #278056;
   border: 2px solid;
   transition: 0.3s ease;
   transition-property: background-color, color;
@@ -531,20 +529,20 @@ img {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 48px;
+  margin-top: 39px;
 }
 
 #about .resumedownload:hover {
+  background-color: #3e5257;
   color: #ffffff;
-  background-color: #278056;
 }
 
 #about .col-left p {
   font-family: Mulil;
-  font-size: 26px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
   color: #3e5257;
@@ -564,7 +562,7 @@ img {
 
 #about .about-description .description {
   font-family: Mulil;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 300;
   line-height: 34px;
@@ -583,7 +581,7 @@ img {
   letter-spacing: 0em;
   text-align: left;
   color: #1d292d;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 #about .about-description .description1 {
@@ -702,15 +700,13 @@ img {
 }
 
 #footer .about-primary {
-   padding-left: 10%;
+  padding-left: 10%;
   padding-right: 10%;
 }
 
 #footer hr {
   width: 72%;
 }
-
-
 
 /* End Footer */
 
@@ -973,6 +969,7 @@ img {
   #about .about {
     flex-direction: column;
     margin-top: 120px;
+    padding-left: 0%;
   }
   #about .col-left {
     width: auto;
