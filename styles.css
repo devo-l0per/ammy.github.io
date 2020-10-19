@@ -68,7 +68,7 @@ img {
   height: 100%;
   max-width: 1300px;
   padding: 0 10px;
-  padding-right: 150px;
+  padding-right: 7%;
   background-color: transparent;
   /* opacity: 80%; */
 }
@@ -206,6 +206,10 @@ img {
 
 #header .hamburger.active .bar::after {
   top: 0;
+}
+
+#header .about-nav-bar {
+  padding-right:6.25%;
 }
 
 /* End Header section */
@@ -489,7 +493,12 @@ img {
 
 /* About */
 #about .about {
+  display: flex;
   flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  padding-left: 10%;
 }
 #about .col-left {
   width: 60%;
@@ -548,7 +557,7 @@ img {
 #about .about-description {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
 }
 
@@ -561,7 +570,7 @@ img {
   letter-spacing: 0em;
   max-width: 85%;
   color: #3e5257;
-  margin-left: 7.5%;
+  margin-left: 10%;
 }
 
 #about .about-description .description h3 {
@@ -690,6 +699,17 @@ img {
 #footer .medium:hover {
   color: #000000;
 }
+
+#footer .about-primary {
+   padding-left: 10%;
+  padding-right: 10%;
+}
+
+#footer hr {
+  width: 72%;
+}
+
+
 
 /* End Footer */
 
