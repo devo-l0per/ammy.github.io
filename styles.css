@@ -416,9 +416,9 @@ img {
 
 .portfolio .home-cards .read-more {
   padding: 13px 20px 13px 20px;
-  background-color: #f8f4ed;
   border: #278056 solid 2px;
-  color: #278056;
+  color: #ffffff;
+  background-color: #278056;
   font-family: Mulil;
   font-size: 20px;
   font-style: normal;
@@ -431,9 +431,12 @@ img {
 }
 
 .portfolio .home-cards .read-more:hover {
-  background-color: #278056;
+ 
+  border: #3e5257 solid 2px;
+   background-color: #3e5257;
   color: #ffffff;
-  border: #278056 solid 2px;
+
+  
 }
 
 /* End of Portfolio Section  */
@@ -1000,14 +1003,8 @@ img {
   }
 
   #about .col-left .resumedownload {
-    display: inline-block;
     padding: 13px 23px;
-    color: #278056;
-    background-color: #f8f4ed;
-    border: 2px solid;
-    transition: 0.3s ease;
-    transition-property: background-color, color;
-    font-family: Mulil;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1019,11 +1016,6 @@ img {
     margin-bottom: 84px;
   }
 
-  #about .resumedownload:hover {
-    color: #ffffff;
-    background-color: #278056;
-  }
-
   #about .col-right {
     margin: 0;
     width: 100%;
@@ -1032,8 +1024,9 @@ img {
   }
 
   #about .col-right .about-img {
-    max-width: 414px;
+    max-width: 450px;
     margin: auto;
+    content: url("./images/about_phone.jpg");
   }
 
   #about .about-description {
