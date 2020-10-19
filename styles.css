@@ -143,10 +143,11 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   color: #fdfbf9;
-  font-size: 13rem;
+  font-size: 9rem;
   letter-spacing: 0.15rem;
   z-index: -1;
   transition: 0.3s ease letter-spacing;
+  opacity: 50%;
 }
 
 #header .nav-list ul li:hover a::after {
