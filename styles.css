@@ -70,7 +70,7 @@ img {
   padding: 0;
   padding-right: 7%;
   background-color: transparent;
-  /* opacity: 80%; */
+  
 }
 
 #header .nav-bar .brand {
@@ -169,7 +169,7 @@ img {
   justify-content: center;
   z-index: 100;
   cursor: pointer;
-  /* transform: scale(0.8); */
+ 
   margin-right: 20px;
 }
 
@@ -372,9 +372,7 @@ img {
   padding-top: 0cm;
 }
 
-/* .portfolio .home-cards .home-card-even {
-  padding-top: 300px;
-} */
+
 
 .portfolio .home-cards-img {
   overflow: hidden;
@@ -394,7 +392,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  /* line-height: 37px; */
+  
   color: #1d292d;
 }
 
