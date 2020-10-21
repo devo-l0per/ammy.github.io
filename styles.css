@@ -733,9 +733,7 @@ img {
   #header .nav-list ul li {
     display: inline-block;
   }
-  #header .nav-list ul li a {
-    /* font-size: 1.8rem; */
-  }
+ 
   #header .nav-list ul a:after {
     display: none;
   }
@@ -795,10 +793,9 @@ img {
     line-height: 40px;
     text-align: center;
 
-    /* margin-bottom: 25px;
-    margin-top:64px ; */
+    
     margin: 64px auto 25px auto;
-    /* min-width: 321px; */
+    
   }
 
   #hero .hero .big-break {
